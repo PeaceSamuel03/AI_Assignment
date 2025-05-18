@@ -7,6 +7,12 @@ This model distinguishes between three species of butterfly:
 - Admiral
 It was built using TensorFlow and Keras in Jupyter Notebook, it explores different modelling approaches such as baseline convolutional network, augmented training, and transfer learning.
 
+## Technologies Used
+- Python
+- TensorFLow/ Keras
+- Jupyter Notebook
+- NumPy, Matplotlib
+  
 ## Dataset
 The dataset consists of labeled butterfly images (200 of each class). The data was processed using the following steps:
 - Resized to **224x224**
@@ -34,8 +40,5 @@ Leveraged a pretrained ResNet50 model with a custom classifier head with:
 - Dense(3 softmax)
 Some layers of the ResNet50 model were unfrozen to help fine-tune the model.
 
-## Technologies;
-- Python
-- TensorFLow/ Keras
-- Jupyter Notebook
-- NumPy, Matplotlib
+## Credits
+Created by Peace Samuel. Part of my 4th year Computer Science course.
