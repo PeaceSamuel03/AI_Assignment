@@ -5,6 +5,7 @@ This model distinguishes between three species of butterfly:
 - Monarch
 - Painted Lady
 - Admiral
+
 It was built using TensorFlow and Keras in Jupyter Notebook, it explores different modelling approaches such as baseline convolutional network, augmented training, and transfer learning.
 
 ## Technologies Used
